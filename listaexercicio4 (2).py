@@ -36,7 +36,7 @@ Este projeto tem como objetivo integrar análise de dados contábeis de empresas
 utilizando Python, Pandas, Ipeadata e Streamlit.
 """)
 
-df = pd.read_csv('/content/empresas_dados.csv')
+df = pd.read_csv('empresas_dados.csv')
 
 st.subheader('Todas as Linhas da Tabela')
 st.dataframe(df)
